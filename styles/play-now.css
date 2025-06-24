@@ -101,6 +101,12 @@ body {
 .footer button:hover {
     background-color: rgb(158, 158, 255);
     transform: scale(1.03);
-    border-color: green;
+    border-color: 3fe372;
     cursor: pointer;
+}
+
+.team-selection button.selected {
+    background-color: #1e2846;
+    border-color: #35b8e0;
+    transform: scale(1.03);
 }
