@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #0B0F1A;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+    background-color: #101625;
+    margin-bottom: 3em;
+}
+
+.header h1, h2{
+    font-size: 4rem;
+    color: #fff;
+    font-family: "Bebas Neue", sans-serif;
+    text-align: center;
+}
+
+.header h2 {
+    font-weight: 50;
+    font-size: 1.7rem;
+    color: #c4c4c4;
+}
+
+.team-selection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    flex-wrap: wrap;
+    margin: 1em;
+}
+
+.team-selection img {
+    width: 11em;
+    height:11em;
+
+}
+
+.team-selection span {
+    padding: 1em;
+    color:white;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 1.3em;
+    padding: 1em;
+    text-shadow: 0.1em 0.1em 1em black;
+}
+
+.team-selection button {
+    padding: 3em;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #979696;
+    border-radius: 2em;
+    box-shadow: 0.5em 0.5em 1em #1e2846;
+    width: 20em;
+    height: 20em;
+}
+
+.team-btn {
+    background-color: #0B0F1A;
+}
+
+.team-selection button:hover {
+    background-color: #1e2846;
+    border-color: #3fe372;
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5em;
+}
+
+.footer button {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 2.5em;
+    background-color: rgb(62, 62, 255);
+    padding: 0.5em 1.5em;
+    color: white;
+    border-radius: 0.5em;
+    border: 2px solid rgb(29, 29, 116);
+    box-shadow: 0.5em 0.5em 1em #1e2846;
+}
+
+.footer button:hover {
+    background-color: rgb(158, 158, 255);
+    transform: scale(1.03);
+    border-color: 3fe372;
+    cursor: pointer;
+}
+
+.team-selection button.selected {
+    background-color: rgb(143, 143, 255);
+    border-color: rgb(29, 29, 116);
+    transform: scale(1.05);
+}
+
